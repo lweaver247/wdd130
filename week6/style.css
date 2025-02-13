@@ -1,0 +1,24 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+.grid-container{
+    Display:grid;
+    grid-template-columns: 2.5fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+.header{
+    background-color: #FA578A;
+    grid-column:1/3;
+}
+.side-bar{
+    background-color: #FFE7B9;
+    grid-column: 3/4;
+    grid-row:1/span 2;
+}
+.pineapple{
+    background-color: #FFCB98;
+}
+.book-space{
+    background-color:#702FA7;
+}
