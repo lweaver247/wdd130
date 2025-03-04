@@ -1,0 +1,17 @@
+body{
+    margin:0;
+}
+
+.time{
+    justify-content: center;
+    color:darkblue;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:rgb(18, 18, 182);
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
