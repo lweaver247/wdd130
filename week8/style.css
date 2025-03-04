@@ -1,0 +1,65 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: fantasy;
+    font-size:30px;
+}
+.circle{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background-color: blue;
+    cursor:pointer;
+    justify-self:center;
+    align-content:center;
+    grid-column:1/2;
+    margin:50px;
+}
+.circle p{
+    justify-self:center;
+}
+.triangle{
+    display:inline-block;
+    border-bottom: 300px solid green;
+    border-top: 0px;
+    border-left:150px solid transparent;
+    border-right:150px solid transparent;
+    color:lightgreen;
+    justify-self:center;
+    align-content:center;
+    grid-column:2/3;
+    margin:50px;
+    cursor:pointer;
+}
+#tri_text{
+}
+.square{
+    width:300px;
+    height:300px;
+    background-color:pink;
+    color:brown;
+    justify-self:center;
+    align-content:center;
+    grid-column:3/4;
+    margin:50px;
+    cursor:pointer;
+}
+.square p{
+    justify-self: center;
+}
+.rect{
+    width:600px;
+    height:100px;
+    border-radius:15%;
+    background-color:rgb(255, 170, 0);
+    border:solid 2px black;
+    justify-self:center;
+    align-content:center;
+    grid-column:1/4;
+    grid-row:2/3;
+    margin-top:100px;
+    cursor:pointer;
+}
+.rect p{
+    justify-self: center;
+}
