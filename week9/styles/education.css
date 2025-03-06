@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+header{
+    grid-template-columns: ;
+}
+.nav-bar1{
+    background-color:#006eb6
+}
+.blue-nav{
+    justify-self:right;
+    color:white;
+    font-family:acumin-pro;
+}
+.blue-nav a{
+    color:white;
+    font-family:sans-serif; 
+}
+.blue-nav a:hover{
+    text-decoration:underline;
+}
+a{
+    text-decoration:none;
+}
+
+.white-nav{
+    text-decoration:none;
+}
