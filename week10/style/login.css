@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.whitebox{
+    display:block;
+    justify-content:center;
+    align-items:center;
+    box-shadow:5px rgba(0,0,0,0.2);
+    padding-top:15em;
+}
+h1{
+    display:flex;
+    justify-content:center;
+}
+#username{
+    border-radius:5px;
+    width:500px;
+    height:50px;
+}
+#password{
+    border-radius:5px;
+    width:500px;
+    height:50px;
+}
+#login{
+    border-radius:5px;
+    width:500px;
+    height:50px;
+    background-color:rgb(102, 176, 240);
+    font-size:16px;
+    color:white;
+}
+#login:hover{
+
+}
