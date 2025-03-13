@@ -5,11 +5,8 @@ body{
     font-family:Arial, Helvetica, sans-serif
 }
 .whitebox{
-    display:block;
-    justify-content:center;
-    align-items:center;
+    margin: 300px auto;
     box-shadow: 0 0 10px -2px rgba(0,0,0,0.2);
-    margin-top:15em;
 }
 h1{
     display:flex;
