@@ -4,56 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date Book | Home Page</title>
+    <link rel="stylesheet" href="styles/home-page.css">
 </head>
 <body>
+    <div id="content">
     <header>
-        <a href="index.html"><img src="Images/logo.png" alt="Datebook logo"></a>
+        <a class="logo-link" href="index.html"><img class="logo" src="Images/logo.png" alt="Datebook logo"></a>
         <nav>
+            <div class="links">
             <a href="about_us.html">About Us</a>
             <a href="datelist.html">Date Ideas</a>
          <!--  <a>Event Us</a>
             <a>Contact Us</a> -->
+            </div>
         </nav>
     </header>
-    <main>
-        <img src="Images/hero.jpg" alt="couple walking in park">
-        <div>
-            <h1>Save the Date!</h1>
-            <h3>Get original date ideas without the stress of planning them.</h3>
+        <div class="hero">
+            <div id="hero-box">
+            <img id="hero-img" src="Images/hero.jpg" alt="couple walking in park">
         </div>
-    
-        <section>
-            <img src="Images/tinified/formal_kid_dinner-opt.jpeg" alt="Couple eating graham crackers and apple slices at picnic table">
-            <div>
+            <section id="hero-msg">
+                <h1 class="home-title">Save the Date!</h1>
+                <h3>Get original date ideas without the stress of planning them.</h3>
+            </section>
+        </div>
+     <main class="home-grid">
+            <img id="dateweek-img" src="Images/tinified/formal_kid_dinner-opt.jpeg" alt="Couple eating graham crackers and apple slices at picnic table">
+            <section id="dateweek-msg">
                 <h2>Date of the Week</h2>
                 <h3>Formal Kid Dinner</h3>
-                <button>See More</button>
-            </div>
-        </section>
-        <section>
-            <div>
+                <a class="button" href="datelist.html">See More</a>
+            </section>
+        <div class="background"></div>
+            <section id="calendar-msg">
                 <h2>See What's Happening</h2>
                 <h3>See upcoming fun events you and your date can enjoy. We partner with Teton River Arts and Commerce to access their calendar of events put on by local creators.
                 </h3>
-                <button>Event Calendar</button>
-            </div>
-            <img src="Images/tinified/young-couple-love-outdoor-opt.jpg" alt="young couple under a string of lights">
-        </section>
+                    <a class="button" href="#">Event Calendar</a>
+            </section>
+            <img id="calendar-img" src="Images/tinified/young-couple-love-outdoor-opt.jpg" alt="young couple under a string of lights">
+        
     </main>
     <footer>
-        <a href="index.html"><img src="Images/logo.png" alt="Datebook logo"></a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="about_us.html">About us</a>
-            <a href="datelist.html">Date Ideas</a>
-            <div>
-            <a href="#" target="_blank">
+        <a class="logo-link" href="index.html"><img class="logo" src="Images/logo.png" alt="Datebook logo"></a>
+        <p> &copy; 2025 Date Book. All rights reserved.</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+           <p><a href="about_us.html">About us</a></p>
+            <p><a href="datelist.html">Date Ideas</a></p>
+            <div class="social">
+            <a href="https://www.facebook.com/" target="_blank">
                 <img src="Images/facebook.png" alt="Facebook logo">
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/" target="_blank">
                 <img src="Images/instagram.png" alt="Instagram logo">
             </a>
-        </div>
-        <p> &copy; 2025 Date Book. All rights reserved.</p>
-    </footer>
+            </div>
+        
+        </footer>
+    </div>  
 </body>
 </html>

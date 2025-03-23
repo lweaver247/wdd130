@@ -1,0 +1,30 @@
+body{
+    display:flex;
+}
+header{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    height:100%;
+
+}
+.side-bar{
+    width:150px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    gap:10px;
+
+}
+.top-nav{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.icon{
+    height:50px;
+    width:50px;
+}
