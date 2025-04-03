@@ -1,0 +1,145 @@
+body{
+    margin:0;
+}
+#content{
+    width:100%;
+    margin: 0 auto;
+    background-color:#EBEBD3;
+}
+h1{
+    color:#1446A0;
+}
+h2{
+    color:#1446A0;
+    font-family:Verdana;
+    font-size:36px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 0.75fr 1fr;
+    grid-template-rows: 500px 750px;
+}
+/*Navigation bar*/
+header{
+    background-color:#F5D547;
+    display:grid;
+    grid-template-columns: 150px auto;
+    padding:0px;
+
+}
+.logo-link{
+    padding:0px;
+    justify-self:center;
+    align-self:center;
+}
+.logo{
+    padding-left:10px;
+    padding-bottom:0px;
+    width:160px;
+    height:160px;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    font-family: Verdana;
+}
+.links{
+    margin-left:700px;
+    text-align:center;
+    align-self:center;
+}
+
+nav a{
+    padding:30px;
+    font-size:20px;
+    text-align:center;
+    text-decoration:none;
+    color:#1446A0;
+    margin: 0px 0px;
+}
+
+nav a:hover{
+    background-color:#EBEBD3;
+    cursor:pointer;
+    
+
+}
+/*Section*/
+
+/*title*/
+
+.title{
+    display:flex;
+    flex-direction:row;
+    justify-self:center;
+    align-self:center;
+    margin:50px 75px;
+}
+.title h1{
+    font-family:Verdana;
+    font-size:72px;
+    color:#1446A0;
+}
+
+/*Why Section*/
+#why-block{
+    grid-column:1;
+    width:800px;
+    margin-top:0px;
+    margin-left:20px;
+}
+#why-block h2{
+    justify-self:center;
+}
+#why-block p{
+    font-family:Arial;
+    font-size:16px;
+}
+#tired-man{
+    grid-column:2;
+    width:450px;
+    height:fit-content;
+    align-self:center;
+    justify-self:center;
+}
+/*subpage hero*/
+#subpage-hero-msg{
+    grid-column:1/3;
+    justify-self:center;
+    align-self:center;
+    padding:10px 50px 50px;
+    margin-top:100px;
+    border: solid 5px #3C3C3B;
+    
+    
+}
+#subpage-hero-msg h2{
+    justify-self:center;
+    align-self:center;
+}
+
+#subpage-hero-img{
+    grid-column:1/3;
+}
+
+/*footer*/
+footer{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+    background-color:#F5D547;
+    align-items:center;
+    margin-top:175px;
+}
+footer p{
+    font-family:Arial;
+    font-size:16px;
+    justify-content:space-around;
+    text-decoration:none;
+}
+
+footer p:hover{
+    text-decoration:underline;
+}
+
