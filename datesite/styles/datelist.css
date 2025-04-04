@@ -138,6 +138,7 @@ border:10px solid #3C3C3B;
         margin-left:-30px;
         margin-bottom:-100px;
         box-shadow:5px 5px 10px #6f7364;
+        justify-items:center;
 
  }
   .msg h3{
@@ -153,7 +154,7 @@ border:10px solid #3C3C3B;
     font-family:Verdana;
     padding: 15px 30px;
     border-radius:5px;
-    margin-top:100px;
+    
 }
 
 
