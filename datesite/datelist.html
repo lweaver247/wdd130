@@ -7,52 +7,57 @@
     <link rel="stylesheet" href="styles/datelist.css">
 </head>
 <body>
+    <div id="content">
     <header>
-        <a href="index.html"><img src="Images/logo.png" alt="Datebook logo"></a>
+        <a class="logo-link" href="index.html"><img class="logo" src="Images/logo.png" alt="Datebook logo"></a>
         <nav>
+            <div class="links">
             <a href="about_us.html">About Us</a>
             <a href="datelist.html">Date Ideas</a>
          <!--  <a>Event Us</a>
             <a>Contact Us</a> -->
+            </div>
         </nav>
     </header>
-    <main>
-        <section>
-        <h1>Date Ideas</h1>
-        <div>
+    <main class="home-grid">
+        <h1 class="title">Date Ideas</h1>
+        <section class="dinner-card">
+            <img class="card-img" id="dinner-img" src="Images/tinified/formal_kid_dinner-opt.jpeg" alt="Nicely dressed couple eating crackers and apples">
             <h3>Formal Kid's Dinner</h3>
-            <img src="Images/tinified/formal_kid_dinner-opt.jpeg" alt="Nicely dressed couple eating crackers and apples">
-        </div>
-        <div>
-            <h3>Cross-country Skiing</h3>
-            <img src="Images/tinified/brushes-opt.jpg" alt="paint brushes">
-        </div>
-        <div>
-            <h3>Paint each other's faces</h3>
-            <img src="Images/tinified/cross-country-skiing-opt.jpg" alt="Couple cross-country skiing">
-        </div>
         </section>
-        <section>
-            <div>
-                <h3>Got a date Idea you want to add?<h3>
-                    <button>Submit Here</button>
+        <section class="skiing-card">
+            <img class="card-img"src="Images/tinified/cross-country-skiing-opt.jpg" alt="Couple cross-country skiing">
+            <h3>Cross-country Skiing</h3>
+        </section>
+        <section class="painting-card">
+            <img class="card-img" src="Images/tinified/brushes-opt.jpg" alt="paint brushes">
+            <h3>Paint each other's faces</h3>
+        </section>
+            <div id="background"></div>
+            <img id="ballot-img" src="Images/ballot.jpg" alt="ballot">
+            <section class="msg">
+                <h3>Got a Date Idea you want to add?<h3>
+                <a class="submit" href="#">Submit</a>
+            </section>
             </div>
         </section>
     </main>
     <footer>
-        <a href="index.html"><img src="Images/logo.png" alt="Datebook logo"></a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="about_us.html">About us</a>
-            <a href="datelist.html">Date Ideas</a>
-            <div>
-            <a href="#" target="_blank">
+        <a class="logo-link" href="index.html"><img class="logo" src="Images/logo.png" alt="Datebook logo"></a>
+        <p> &copy; 2025 Date Book. All rights reserved.</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+           <p><a href="about_us.html">About us</a></p>
+            <p><a href="datelist.html">Date Ideas</a></p>
+            <div class="social">
+            <a href="https://www.facebook.com/" target="_blank">
                 <img src="Images/facebook.png" alt="Facebook logo">
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/" target="_blank">
                 <img src="Images/instagram.png" alt="Instagram logo">
             </a>
-        </div>
-        <p> &copy; 2025 Date Book. All rights reserved.</p>
+            </div>
+        
     </footer>
+    </div>
 </body>
 </html>

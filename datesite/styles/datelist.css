@@ -1,0 +1,180 @@
+body{
+    margin:0;
+    background-color:#EBEBD3;
+}
+#content{
+    width:100%;
+    margin: 0 auto;
+    background-color:#EBEBD3;
+}
+h1{
+    color:#1446A0;
+}
+h2{
+    color:#1446A0;
+    font-family:Verdana;
+    font-size:36px;
+}
+h3{
+    color:#51344d;
+    font-family:Verdana;
+    justify-self:center;
+}
+
+/*Navigation bar*/
+header{
+    background-color:#F5D547;
+    display:grid;
+    grid-template-columns: 150px auto;
+    padding:0px;
+
+}
+.logo-link{
+    padding:0px;
+    justify-self:center;
+    align-self:center;
+}
+.logo{
+    padding-left:10px;
+    padding-bottom:0px;
+    width:160px;
+    height:160px;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    font-family: Verdana;
+}
+.links{
+    margin-left:700px;
+    text-align:center;
+    align-self:center;
+}
+
+nav a{
+    padding:30px;
+    font-size:20px;
+    text-align:center;
+    text-decoration:none;
+    color:#1446A0;
+    margin: 0px 0px;
+}
+
+nav a:hover{
+    background-color:#EBEBD3;
+    cursor:pointer;
+    
+
+}
+
+/* Date Ideas */
+
+.home-grid{
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+}
+.title{
+    grid-column:1/11;
+    justify-self:center;
+    align-self:center;
+    font-family:Verdana;
+    font-size:72px;
+
+}
+.dinner-card,.skiing-card,.painting-card{
+    margin: 100px 0;
+    justify-self:center;
+} 
+
+/*
+.dinner-card:hover,.skiing-card:hover,.painting-card:hover{
+    margin: 100px 0;
+    justify-self:center;
+    cursor: pointer;
+} 
+*/
+
+.card-img{
+border:10px solid #51344d;
+    transition:transform .5s;
+    box-shadow:5px 5px 10px #6f7364;
+    width:400px;
+    height:fit-content;
+}
+
+.card-img:hover{
+    opacity:0.6;
+    transform: scale(1.1);
+}
+
+.dinner-card{
+    grid-column:3/5;
+}
+#dinner-img{
+    width:207px;
+}
+.skiing-card{
+    grid-column:7/8;
+}
+.painting-card{
+    grid-column:9/10;
+}
+/* Submit Ideas */
+
+#ballot-img{
+    grid-column:2/8;
+    grid-row:3/6;
+    width:100%;
+    display:block;
+    margin: auto 0;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.2)
+}
+
+ .msg{
+        grid-column:8/10;
+        grid-row:4/5;
+        background-color:#F5D547;
+        line-height:1.5em;
+        padding:35px;
+        margin-left:-30px;
+        margin-bottom:-100px;
+        box-shadow:5px 5px 10px #6f7364;
+
+ }
+  .msg h3{
+        color:#51344d;
+        font-size:24px;
+ }
+
+.submit{
+    background-color:#1446A0;
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    font-family:Verdana;
+    padding: 15px 30px;
+    border-radius:5px;
+    margin-top:100px;
+}
+
+
+
+/*footer*/
+footer{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+    margin-top:200px;
+    background-color:#F5D547;
+    align-items:center;
+}
+footer p{
+    font-family:Arial;
+    font-size:16px;
+    justify-content:space-around;
+    text-decoration:none;
+}
+
+footer p:hover{
+    text-decoration:underline;
+}
