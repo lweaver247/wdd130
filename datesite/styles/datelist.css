@@ -27,16 +27,14 @@ header{
     display:grid;
     grid-template-columns: 150px auto;
     padding:0px;
+    height:160px;
 
 }
 .logo-link{
-    padding:0px;
-    justify-self:center;
-    align-self:center;
+    width:160px;
+    height:160px;
 }
 .logo{
-    padding-left:10px;
-    padding-bottom:0px;
     width:160px;
     height:160px;
 }
@@ -63,6 +61,8 @@ nav a{
 nav a:hover{
     background-color:#EBEBD3;
     cursor:pointer;
+    
+
 }
 
 /* Date Ideas */
@@ -77,11 +77,12 @@ nav a:hover{
     align-self:center;
     font-family:Verdana;
     font-size:72px;
-    margin-top:100px;
+    padding:25px;
+    border-bottom:solid #acabab;
 
 }
 .dinner-card,.skiing-card,.painting-card{
-    margin: 100px 0;
+    margin: 50px 0px 150px 0px;
     justify-self:center;
 } 
 
@@ -99,10 +100,10 @@ border:10px solid #3C3C3B;
     box-shadow:5px 5px 10px #6f7364;
     width:400px;
     height:fit-content;
+    border-radius:5%;
 }
 
 .card-img:hover{
-    opacity:0.6;
     transform: scale(1.1);
 }
 
@@ -126,7 +127,8 @@ border:10px solid #3C3C3B;
     width:100%;
     display:block;
     margin: auto 0;
-    box-shadow:5px 5px 5px rgba(0,0,0,0.2)
+    box-shadow:5px 5px 5px rgba(0,0,0,0.2);
+    border-radius:5%;
 }
 
  .msg{
@@ -135,10 +137,11 @@ border:10px solid #3C3C3B;
         background-color:#F5D547;
         line-height:1.5em;
         padding:35px;
-        margin-left:-30px;
-        margin-bottom:-100px;
+        margin-left:-100px;
+        margin-bottom:-200px;
         box-shadow:5px 5px 10px #6f7364;
         justify-items:center;
+        border-radius:5%;
  }
   .msg h3{
         color:#51344d;
@@ -163,17 +166,32 @@ footer{
     display:flex;
     flex-direction:row;
     gap:100px;
-    margin-top:200px;
     background-color:#F5D547;
-    align-items:center;
+    margin-top:150px;
 }
 footer p{
     font-family:Arial;
     font-size:16px;
     justify-content:space-around;
     text-decoration:none;
+    align-self:center;
+    color:#1446A0;
 }
 
-footer p:hover{
+footer p a:hover{
     text-decoration:underline;
+    color:#3C3C3B;
+}
+
+footer p a{
+    text-decoration:none;
+    color:#1446A0;
+}
+
+.social{
+    align-self:center;
+    text-decoration:none;
+}
+.social img{
+    border-radius: 5%;
 }
